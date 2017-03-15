@@ -16,12 +16,23 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 - When you want to try something new or different in you project.
-- Branches help you to label all your commits in one place. Also you can change between branches and delete them.
+- Branches help you to label all your commits in one place. Also you can change between branches, merge and delete them.
 
 How do the diagrams help you visualize the branch structure?
+
+- You can see where all commits and branches are from the most recent to the oldest.
+- You can see what branches can be merged.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+- A branch with all the commits from the branches that were merged.
+- To visualize in what point the branches diverge and merge, so we can take a decision.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+- Git automatic merging help you to combine branches in one and all the code that is the same.
+- Also points you where is a conflict that you need to resolve.
+- When you merge manually you don't have a history of your changes.
+- Also Its really hard to see what are the differences without Git
